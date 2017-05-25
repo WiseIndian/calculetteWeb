@@ -1,10 +1,10 @@
 To use the calculator you have multiple choices:
 
-##Use it in development mode:
+## Use it in development mode:
 In this case you will need to install sbt and java. [This is a link to the sbt website](http://www.scala-sbt.org/download.html).
 This will allow you to execute scala code. Then go to the root of the project, and type *sbt run* in your terminal.
 
-##Just execute it:
+## Just execute it:
 This method requires less installations, it will require you to execute either a bash or a bat script present
 in the zip file contained in the root directory of this project.
 Unzip the *calculetteweb-1.0.zip* zip file. Go inside the bin directory it contains. 
