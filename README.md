@@ -1,4 +1,4 @@
-A responsive web app coded using vanilla JS and the play Scala framework, the app simply adds two numbers together. 
+A *responsive web app* coded using vanilla JS and the play Scala framework, the app simply adds two numbers together. 
 The web client captures any changes occurring in the input fields of the web page. When a change happens the client sends a 
 XML POST request to the remote server asking for the result of the addition of those two numbers.
 The XML POST request is passed those two numbers via a JSON object.
