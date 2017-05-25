@@ -1,0 +1,83 @@
+html, body {
+	font-family: arial;
+	font-size: 30px;
+	background-color: white;
+}
+
+#mainWrapper { 
+	position: relative;
+	width: 90%;
+	margin: auto;
+}
+
+#inputWrapper {
+	width: 100%;
+}
+
+#plus {
+	position: absolute;
+	top: 30px;
+	font-size: 45px;
+	left: -20px;
+}
+
+input {
+	text-align: right;
+	width: 98%;
+	padding: 0;
+	border: 0;
+	word-wrap: break-word;
+	font-size: inherit;
+	outline: none;
+}
+
+#x {
+	border-bottom: dotted 1.5px;
+}
+
+#resultWrapper {
+	border-top: solid 1px;
+	width: 100%;
+}
+
+#resultContainer {
+	text-align: right;
+	word-wrap: break-word;
+}
+
+@media screen and (min-width: 130px) and (max-width: 700) { /*middle width*/
+	#mainWrapper{
+		width: 70%;
+		height: 50%;
+	}
+}
+
+@media screen and (min-width: 700px) { /*big width*/
+	html {
+		font-size: 40px;
+	}
+	#mainWrapper {
+		width: 30%;
+		font-size: 30px;
+	}
+
+	#plus {
+		top: 20px;
+		left: -33px;
+		font-size: 60px;
+	}
+	
+}
+
+@media screen and (min-height: 200px) and (max-height: 400px) { /*middle height screen*/
+	#mainWrapper {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (min-height: 400px) { /*big height screen*/
+        #mainWrapper {
+                margin-top: 30%;
+        }
+}
+
